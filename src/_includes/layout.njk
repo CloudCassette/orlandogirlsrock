@@ -10,11 +10,28 @@
 <body>
   <header>
     <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/#donate" class="donate-link">Donate</a>
+      <a href="/" class="nav-brand">
+        <img src="/ogrc-logo-white.svg" alt="Orlando Girls Rock Camp" class="nav-logo">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="/" class="nav-button">Home</a>
+        <a href="/about/" class="nav-button">About</a>
+        <a href="/#donate" class="nav-button">Donate</a>
+      </div>
     </nav>
   </header>
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
   <main>
     {{ content | safe }}
   </main>
