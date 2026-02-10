@@ -4,7 +4,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/ogrc-logo-white.svg": "ogrc-logo-white.svg" });
 
   return {
-    pathPrefix: "/orlandogirlsrock/",
     dir: {
       input: "src",
       output: "_site"
