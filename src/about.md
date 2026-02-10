@@ -55,7 +55,7 @@ Orlando Girls Rock Camp is dedicated to fostering creativity, confidence, and co
 
 Join our community and help us make a difference in the lives of young musicians! Whether you're looking to volunteer, participate in our programs, or support our mission, there's a place for you in our inclusive community.
 
-<a href="/#donate" class="cta-button">Donate to Support Us</a>
+<a href="../#donate" class="cta-button">Donate to Support Us</a>
 
 </section>
 
