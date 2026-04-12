@@ -69,7 +69,7 @@ nav {
 }
 
 .nav-logo {
-  height: 250px;
+  height: 96px;
   width: auto;
 }
 
@@ -265,8 +265,8 @@ a:hover {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 70%;
-    max-width: 300px;
+    width: 50%;
+    max-width: 250px;
     height: 100vh;
     background: var(--bg-secondary);
     flex-direction: column;
@@ -286,7 +286,11 @@ a:hover {
   }
   
   nav {
-    padding: 1rem 1.5rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .nav-logo {
+    height: 64px;
   }
   
   main {
@@ -340,6 +344,16 @@ a:hover {
   .donate-section h2 {
     font-size: 1.75rem;
   }
+}
+
+/* Signup Image */
+.signup-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 2rem;
 }
 
 /* Donation Section */

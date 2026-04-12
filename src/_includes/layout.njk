@@ -22,6 +22,10 @@
         <a href="{{ '/' | url }}" class="nav-button">Home</a>
         <a href="{{ '/about/' | url }}" class="nav-button">About</a>
         <a href="{{ '/' | url }}#donate" class="nav-button">Donate</a>
+        <!-- Sign Up button - Toggle SHOW_SIGNUP to display -->
+        {%- if SHOW_SIGNUP %}
+        <a href="{{ SIGNUP_FORM_URL | default('#') }}" class="nav-button nav-signup" target="_blank" rel="noopener noreferrer">Sign Up</a>
+        {%- endif %}
       </div>
     </nav>
   </header>
