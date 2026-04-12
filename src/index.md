@@ -11,6 +11,8 @@ Empowering girls, non-binary youth, and women through music, art, and community 
 
 </div>
 
+<img src="/orlandogirlsrockcamp-signup26.jpg" alt="Orlando Girls Rock Camp 2026 Sign-Up" style="width:100%;height:auto;display:block;" />
+
 <section id="donate" class="donate-section">
 
 ## Support Our Mission
