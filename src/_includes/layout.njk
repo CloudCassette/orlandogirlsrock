@@ -26,6 +26,10 @@
         {%- if SHOW_SIGNUP %}
         <a href="{{ SIGNUP_FORM_URL | default('#') }}" class="nav-button nav-signup" target="_blank" rel="noopener noreferrer">Sign Up</a>
         {%- endif %}
+        <!-- Volunteer button - Toggle SHOW_VOLUNTEER_SIGNUP to display -->
+        {%- if SHOW_VOLUNTEER_SIGNUP %}
+        <a href="{{ VOLUNTEER_SIGNUP_FORM_URL | default('#') }}" class="nav-button nav-volunteer" target="_blank" rel="noopener noreferrer">Volunteer</a>
+        {%- endif %}
       </div>
     </nav>
   </header>
@@ -70,4 +74,3 @@
   </footer>
 </body>
 </html>
-
